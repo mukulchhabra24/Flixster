@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -16,6 +17,7 @@
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
+        android:textColor="#FFFFFF"
         android:layout_toEndOf="@+id/ivPoster"
         android:text="Hobbs and shaw "
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
@@ -25,7 +27,7 @@
         android:layout_width="519dp"
         android:layout_height="97dp"
         android:layout_below="@+id/tvTitle"
-
+        android:textColor="#FFFFFF"
         android:layout_marginStart="7dp"
         android:layout_marginTop="-1dp"
         android:layout_toEndOf="@+id/ivPoster"
