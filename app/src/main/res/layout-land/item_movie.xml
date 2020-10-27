@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingBottom="10dp">
@@ -17,21 +18,21 @@
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-        android:textColor="#FFFFFF"
-
         android:layout_toEndOf="@+id/ivPoster"
+
         android:text="Hobbs and shaw "
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="519dp"
         android:layout_height="97dp"
         android:layout_below="@+id/tvTitle"
-        android:textColor="#FFFFFF"
         android:layout_marginStart="7dp"
         android:layout_marginTop="-1dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:text='"A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.' />
+        android:text='"A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.'
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>
