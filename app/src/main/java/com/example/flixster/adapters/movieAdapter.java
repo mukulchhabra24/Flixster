@@ -12,9 +12,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.flixster.MainActivity;
 import com.example.flixster.R;
 import com.example.flixster.detailActivity;
 import com.example.flixster.models.Movie;
@@ -22,6 +24,10 @@ import com.example.flixster.models.Movie;
 import org.parceler.Parcels;
 
 import java.util.List;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
+
+import static android.app.ActivityOptions.makeSceneTransitionAnimation;
 
 public class movieAdapter extends RecyclerView.Adapter<movieAdapter.ViewHolder> {
     Context context;

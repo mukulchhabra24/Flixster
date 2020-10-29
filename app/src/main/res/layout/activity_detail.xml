@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".detailActivity"
     android:orientation="vertical"
+    android:transitionName="profile"
     >
 
     <com.google.android.youtube.player.YouTubePlayerView
